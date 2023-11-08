@@ -1,12 +1,17 @@
 import { useState } from 'react'
-// import './App.css'
 import Sidenav from './Components/Sidenav'
+import  Main  from './Components/main'
+import Work from './Components/Work'
+
+
 
 function App() {
 
   return (
     <>
       <Sidenav />
+      <Main />
+      <Work />
     </>
   )
 }
